@@ -1,0 +1,55 @@
+//
+//  App-Prefix.pch
+//  PokeMonFinder
+//
+//  Created by MG on 22/08/2016.
+//  Copyright © 2016 MG. All rights reserved.
+//
+
+#ifndef App_Prefix_pch
+#define App_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <CoreData/CoreData.h>
+#import <MapKit/MapKit.h>
+#import <AddressBook/AddressBook.h>
+#import <Social/Social.h>
+#import <MessageUI/MessageUI.h>
+#import <FacebookSDK/FacebookSDK.h>
+#import <MobileCoreServices/MobileCoreServices.h>
+#import <GoogleSignIn/GoogleSignIn.h>
+
+
+#import "Config.h"
+#import "UIConfig.h"
+#import "NSString+HTML.h"
+#import "AFNetworking.h"
+#import "MGParser.h"
+#import "ECSlidingViewController.h"
+#import "UIViewController+ECSlidingViewController.h"
+#import "MGRawView.h"
+#import "MGMapView.h"
+#import "METransitions.h"
+#import "MGHelper.h"
+#import "MGUtilities.h"
+#import "MBProgressHUD.h"
+#import "Rating.h"
+#import "Sighting.h"
+#import "User.h"
+
+#import "MGUIImageExtras.h"
+#import "UserAccessSession.h"
+#import "MGListCell.h"
+#import "MGUIAppearance.h"
+#import "FHSTwitterEngine.h"
+#import "MGListView.h"
+#import "Pokemon.h"
+
+#import "NSManageObject+Bindings.h"
+#import "CoreDataController.h"
+
+#endif /* App_Prefix_pch */
